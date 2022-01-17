@@ -16,12 +16,9 @@ class JavaConceptsForLoopElse {
             }
             else
             {
-                System.out.println( arr2[i]+"is not multiple of 2" );
+                System.out.println( arr2[i] +" is not multiple of 2" );
             }
         }
-
-
-
 
     }
 }
