@@ -20,7 +20,7 @@ class JavaConceptsArrays {
         arr[ 4 ] = 5;
 
         int[] arr2 = { 1 , 2 , 3 , 4 , 5 , 22 , 2 };
-        System.out.println( arr2[ 5 ] );
+        /*System.out.println( arr2[ 5 ] );*/
 
 
 
