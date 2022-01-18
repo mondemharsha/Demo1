@@ -1,8 +1,10 @@
 package com.test1;
 
-public class JavaCoreString {
+public
+class JavaCoreString {
 
-    public static void main ( String[] args ){
+    public static
+    void main ( String[] args ) {
 
         //Java-string is an object to represents sequence of characters
 
@@ -12,16 +14,21 @@ public class JavaCoreString {
        create it memory for the string)*/
 
         String s1 = "Am a automation Eng";
-        String s3 ="Hello World";
+        String s3 = "Hello World";
 
-        String s = new String( "welcome String S" );
-        String s2 = new String( "Welcome String s2" );
-        String[] splitString = s.split( "String" ); /*Split: is used for to divide*/
-        System.out.println( splitString[0] );
-        System.out.println( splitString[1] );
-        System.out.println( splitString[1].trim() ); /*Trim: we use for to remove the spaces*/
+        String s  = new String ( "welcome String S" );
+        String s2 = new String ( "Welcome String s2" );
+        String[] splitString = s.split ( "String" ); /*Split: is used for to divide*/
+        System.out.println ( splitString[ 0 ] );
+        System.out.println ( splitString[ 1 ] );
+        System.out.println ( splitString[ 1 ].trim ( ) ); /*Trim: we use for to remove the spaces*/
 
+        /*for ( int i = 0 ; i < s.length ( ) ; i++ )*/
+        for (int i=s.length ()-1;i>=0;i--)  //To Print the out put as reverse
+        {
+            System.out.println ( s.charAt ( i ) );
 
+        }
 
     }
 }
